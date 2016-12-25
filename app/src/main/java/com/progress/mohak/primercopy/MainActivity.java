@@ -115,9 +115,9 @@ public class MainActivity extends AppCompatActivity {
 
                                 if (img1 != null && img2 != null && img3 != null) {
 
-                                    img1.setTranslationY(-(pageWidth * (1 - position) / 4 * ratio));
+                                    img1.setTranslationY(-(pageWidth * (1 - position) / 3* ratio));
                                     img2.setTranslationX(pageWidth * (1 - position) / 8 * ratio);
-                                    img3.setTranslationY(pageWidth * (1 - position) / 4 * ratio);
+                                    img3.setTranslationY(pageWidth * (1 - position) / 3 * ratio);
 
                                 }
 
@@ -138,9 +138,9 @@ public class MainActivity extends AppCompatActivity {
                                 if (img1 != null && img2 != null && img3 != null) {
 
                                     position = -position;
-                                    img1.setTranslationY(-(pageWidth * (1 - position) / 4 * ratio));
+                                    img1.setTranslationY(-(pageWidth * (1 - position) / 3 * ratio));
                                     img2.setTranslationX(pageWidth * (1 - position) / 8 * ratio);
-                                    img3.setTranslationY(pageWidth * (1 - position) / 4 * ratio);
+                                    img3.setTranslationY(pageWidth * (1 - position) / 3 * ratio);
 
                                 }
 
@@ -164,9 +164,9 @@ public class MainActivity extends AppCompatActivity {
 
 
                         } else {
+
                             // (1,+Infinity]
                             // This page is way off-screen to the right.
-
 
                         }
                     }
